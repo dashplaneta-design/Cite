@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Pixelify+Sans:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    background-color: #8ed2d2;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav{
+    width: 80%;
+}
+
+h2{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+
+article{
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.malisheva{
+    display: flex;
+    justify-content: flex-end;
+   
+    
+}
+
+.myart{
+    background-color: #87cfcf;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.myart img:nth-of-type(even){
+    justify-content: flex-end;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.furinart{
+    
+    width: 300px;
+    border-radius: 500px
+}
+
+.seart{
+    width: 300px;
+    border-radius: 500px
+}
+
+.flowersart{
+    width: 400px;
+    border-radius: 500px
+}
+
+.luka{
+    width: 400px;
+}
+
+.abme{
+    margin-top: 60px;
+}
+
+.me{position:relative;
+    top: 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+    background-image: url("bg.png");
+    }
+
+.instagram{
+    width: 50px;
+}
+
+.redf{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.video-wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.socialmedia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me {
+  display: flex;
+  /* flex-direction: column;
+  max-width: 600px; */
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.textforart{
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.burger{
+    display: none;
+    flex-direction: column;
+    width: 30px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.burger span{
+    display: block;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+}
+
+.burger.active span:nth-child(1){
+    transform: rotate(45deg) translateY(8px);
+
+}
+
+.burger.active span:nth-child(2){
+  display: none;  
+}
+
+.burger.active span:nth-child(3){
+    transform: rotate(-45deg) translateY(-10px);
+}
+
+@media (max-width: 548px){
+    .malisheva{
+    width: 300px;
+}
+.video-wrap{
+    flex-direction: column;
+}
+
+.burger{
+    display: flex;
+}
+
+
+ul{
+    display: none;
+    justify-content: space-around;
+}
+
+h2{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.luka{
+    max-width: 40vw; 
+    margin: 20px 0;
+
+}
+
+.furinart{
+    width: 100px;
+    border-radius: 50px
+}
+
+article{
+    padding: 20px;
+    max-width: 100%;
+    background-color: #ffffff;
+}
+
+footer{
+    
+}
+
+p{
+    font-size: 9px;
+}
+
+.about-me{
+    /*display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 100%;
+    overflow: hidden;*/
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 100%;
+    
+    overflow: visible; 
+}
+
+.abme {
+    max-width: 150px;
+    font-size: 12px;
+  }
+
+.flowersart{
+    max-width: 170px;
+  }
+
+.seart{
+    max-width: 150px;
+}
+
+.furinart{
+    width: 140px;
+}
+
+.wrap{
+    /* flex-direction: column; */
+    
+}
+
+.textforart{
+    justify-content: center;
+    max-width: 300px;
+}
+
+.apple{
+    transform: rotate(360deg);
+}
+
+.redf{
+    max-width: 200px;
+}
+
+ul.show{
+    display: flex;
+    
+}
+
+}
